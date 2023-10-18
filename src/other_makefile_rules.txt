@@ -1,0 +1,6 @@
+build:
+	gcc -Wall -std=c99 main.c -lSDL2 -o game
+run:
+	./game
+clean:
+	rm game
